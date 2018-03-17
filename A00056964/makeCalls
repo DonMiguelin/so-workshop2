@@ -1,0 +1,7 @@
+gcc GETUID.c -o GETUIS.o
+gcc SYSINFO.c -o SYSINFO.o
+gcc TIME.c -o TIME.o
+
+
+
+ 
