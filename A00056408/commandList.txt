@@ -1,0 +1,332 @@
+    1  ssh root 192.168.104.31
+    2  ssh root@192.168.104.31
+    3  ssh root@192.168.104.40
+    4  exit
+    5  cd /tmp/
+    6  ls
+    7  rm -rf tig/
+    8  ls
+    9  git clone https://github.com/leonleo997/so-workshop2.git
+   10  ls
+   11  cd so-workshop2/|
+   12  cd so-workshop2/
+   13  tig
+   14  touch message_1.txt
+   15  LS
+   16  ls
+   17  git add message_1.txt 
+   18  git status
+   19  vi message_2.txt
+   20  ls
+   21  git -help
+   22  git help
+   23  git rm message_1.txt 
+   24  git rm -f message_1.txt 
+   25  git status
+   26  git rm -f message_2.txt 
+   27  git status
+   28  git reset
+   29  git status
+   30  git reset message_2.txt 
+   31  git status
+   32  git checkout -b
+   33  git checkout -b A00056408/workshop2
+   34  git branch
+   35  git checkout 
+   36  git branch
+   37  git checkout -
+   38  git branch -d
+   39  git branch help
+   40  git checkout A00056408/workshop2
+   41  git checkout -D A00056408/workshop2
+   42  git checkout -D 
+   43  git checkout -b ylopez/workshop2
+   44  git checkout -help
+   45  git branch help
+   46  git branch -help
+   47  git branch -D A00056408/workshop2
+   48  git branch --list
+   49  git branch -D help
+   50  git checkout 
+   51  git status
+   52  ls
+   53  rm message_2.txt 
+   54  touch message_1.txt
+   55  ls
+   56  git add message_1.txt 
+   57  ls
+   58  git status
+   59  git commit -m
+   60  git commit -m "Add message_1.txt"
+   61  git config global user.name "yeye"
+   62  git config global user.email[B "yesid.lopez@correo.icesi.edu.co"
+   63  tig
+   64  ls -la
+   65  vi .git/config 
+   66  cat .git/config 
+   67  git branch
+   68  git push origin ylopez/workshop
+   69  git push origin ylopez/workshop2
+   70  git branch
+   71  history 
+   72  history > command_list.txt
+   73  git add command_list.txt 
+   74  git commit -m "Add command_list.txt"
+   75  git branch
+   76  git push origin ylopez/workshop2
+   77  exit
+   78  poweroff
+   79  loadkey es
+   80  loadkeys es
+   81  yum install tree
+   82  yum install trace
+   83  yum install strace
+   84  cd ..
+   85  cd tmp/
+   86  ls
+   87  ipconfig
+   88  ifconfig
+   89  ip add
+   90  poweroff
+   91  strace --version
+   92  strace -version
+   93  strace
+   94  strace -h
+   95  yum install strac
+   96  yum install strace
+   97  cd ..
+   98  cd tmp/
+   99  cd so-syscalls/
+  100  ls
+  101  cd 01_intro/
+  102  ls
+  103  cd sources/
+  104  ls
+  105  vim syscl_01.c
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd tmp/
+  110  ls
+  111  cd so-workshop2/
+  112  ls
+  113  ls -la
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd so-workshop2/
+  118  ls
+  119  cd ..
+  120  cd
+  121  it clone https://github.com/leonleo997/so-workshop2.git
+  122  git init
+  123  cd /root/.git/
+  124  git clone https://github.com/leonleo997/so-workshop2.git
+  125  ls
+  126  cd so-workshop2/
+  127  ls
+  128  mkdir A00056408
+  129  GCC
+  130  gcc
+  131  gcc -version
+  132  gcc --version
+  133  vi syscl_01.c
+  134  vim syscl_01.c 
+  135  yum install vim
+  136  gcc syscl_01.c -o syscl_01.o
+  137  vim syscl_01.c 
+  138  cd /root/.git/
+  139  cd so-workshop2/
+  140  ls
+  141  cp syscl_01.c A00056408/
+  142  rm -rf syscl_01.c syscl_01.o
+  143  ls
+  144  cd A00056408/
+  145  ls
+  146  vim syscl_01.c 
+  147  gcc syscl_01.c -o syscl_01.o
+  148  vim syscl_01.c 
+  149  gcc syscl_01.c -o syscl_01.o
+  150  ./syscl_01.o 
+  151  strace ./syscl_01.o
+  152  ls
+  153  vim syscl_01.c
+  154  cd
+  155  ls
+  156  cd /root/.git/
+  157  ls
+  158  cd so-workshop2/
+  159  ls
+  160  cd A00056408/
+  161  LS
+  162  ls
+  163  rm syscl_01.0
+  164  rm syscl_01.o
+  165  ls
+  166  vim syscl_01.c 
+  167  gcc syscl_01.c -o syscl_01.o
+  168  vim syscl_01.c 
+  169  gcc syscl_01.c -o syscl_01.o
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd A00056408/
+  174  ls
+  175  gcc syscl_01.c -o syscl_01.o
+  176  vim syscl_01.c 
+  177  gcc syscl_01.c -o syscl_01.o
+  178  vim syscl_01.c 
+  179  gcc syscl_01.c -o syscl_01.o
+  180  vim syscl_01.c 
+  181  ./syscl_01.o 
+  182  ls
+  183  vim syscl_01.c 
+  184  gcc syscl_01.c -o syscl_01.o
+  185  vim syscl_01.c 
+  186  ls
+  187  gcc syscl_01.c -o syscl_01.o
+  188  ls
+  189  ./syscl_01.o 
+  190  gcc syscl_01.c -o syscl_01.o
+  191  vim syscl_01.c 
+  192  gcc syscl_01.c -o syscl_01.o
+  193  ./syscl_01.o 
+  194  ls
+  195  strace ./syscl_01.o
+  196  ls
+  197  rm hola/
+  198  rm -rf hola/
+  199  ls
+  200  strace ./syscl_01.o
+  201  ls
+  202  ./syscl_01.o 
+  203  ls
+  204  vim syscl_01.c
+  205  gcc syscl_01.c -o syscl_01.o
+  206  vim syscl_01.c
+  207  gcc syscl_01.c -o syscl_01.o
+  208  vim syscl_01.c
+  209  gcc syscl_01.c -o syscl_01.o
+  210  vim syscl_01.c
+  211  ls
+  212  /root
+  213  cd /root/.git/
+  214  ls
+  215  cd so-workshop2/A00056408/
+  216  ls
+  217  rm -rf hola/
+  218  ls
+  219  vim syscl_01.c
+  220  ls
+  221  vim syscl_01.c
+  222  gcc syscl_01.c -o syscl_01.o
+  223  ls
+  224  ./syscl_01.o 
+  225  ls
+  226  ./syscl_01.o 
+  227  vim prueba.txt 
+  228  vim
+  229  vim syscl_01.c
+  230  gcc syscl_01.c -o syscl_01.o
+  231  ./syscl_01.o 
+  232  vim prueba.txt 
+  233  vim syscl_01.c
+  234  rm prueba.txt 
+  235  vim syscl_01.c
+  236  gcc syscl_01.c -o syscl_01.o
+  237  ./syscl_01.o 
+  238  vim syscl_01.c
+  239  gcc syscl_01.c -o syscl_01.o
+  240  ./syscl_01.o 
+  241  ls
+  242  vim prueba.txt 
+  243  gcc syscl_01.c -o syscl_01.o
+  244  vim prueba.txt 
+  245  vim syscl_01.c
+  246  ls
+  247  vim syscl_01.c
+  248  gcc syscl_01.c -o syscl_01.o
+  249  ./syscl_01.o 
+  250  vi prueba.txt 
+  251  ls
+  252  ./syscl_01.o 
+  253  vim syscl_01.c
+  254  cd /root/.git/so-workshop2/
+  255  cd A00056408/
+  256  ls
+  257  vim syscl_01.c
+  258  gcc syscl_01.c -o syscl_01.o
+  259  ./syscl_01.o 
+  260  ls
+  261  vim syscl_01.c
+  262  gcc syscl_01.c -o syscl_01.o
+  263  ./syscl_01.o 
+  264  ls
+  265  history
+  266  vim makefile
+  267  cat makefile
+  268  rm -rf syscl_01.o
+  269  ls
+  270  make EJECUTAR
+  271  ls
+  272  make EJECUTAR
+  273  vim makefile
+  274* make EJECUTAR[A
+  275  vim makefile
+  276  vim syscl_01.c
+  277  vim makefile
+  278  make EJECUTRA
+  279  make EJECUTAR
+  280  vim syscl_01.c
+  281  make EJECUTAR
+  282  vim syscl_01.c
+  283  make EJECUTAR
+  284  vim syscl_01.c
+  285  make EJECUTAR
+  286  vim syscl_01.c
+  287  make EJECUTAR
+  288  vim syscl_01.c
+  289  make EJECUTAR
+  290  vim syscl_01.c
+  291  make EJECUTAR
+  292  vim syscl_01.c
+  293  make EJECUTAR
+  294  vim syscl_01.c
+  295  make EJECUTAR
+  296  ls
+  297  rm syscl_01.o
+  298  ls
+  299  make EJECUTAR
+  300  ls
+  301  rm syscl_01.o
+  302  ls
+  303  cd ..
+  304  ls
+  305  vim README.md 
+  306  ls
+  307  cat README.md 
+  308  vim README.md 
+  309  cat README.md 
+  310  vim README.md 
+  311  git add --all
+  312  git status
+  313  ls -la
+  314  rm .syscl_01.c.swp 
+  315  ls -la
+  316  git add --all
+  317  git status
+  318  git commit -m "Submit Workshop2"
+  319  git push origin master
+  320  cd A00056408/
+  321  LS
+  322  ls
+  323  touch commandList.txt
+  324  ls
+  325  history>commandList.txt 
+  326  ls
+  327  vi commandList.txt 
+  328  ls
+  329  make EJECUTAR
+  330  strace ./syscl_01.0
+  331  strace ./syscl_01.o
+  332  history>commandList.txt 
